@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Utensils } from 'lucide-react';
+import { ConciergeBell } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
-            <Utensils className="h-6 w-6 text-primary" />
+            <ConciergeBell className="h-6 w-6 text-primary" />
             <span className="font-headline text-xl font-bold">CaterEase</span>
           </div>
           <nav className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm text-muted-foreground mb-4 md:mb-0">
