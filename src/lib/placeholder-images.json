@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A lavish food buffet at an event.",
+      "imageUrl": "https://images.unsplash.com/photo-1577308856961-8e9ec50d0c67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb29kJTIwYnVmZmV0fGVufDB8fHx8MTc2Nzc3OTAyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food buffet"
+    },
+    {
+      "id": "caterer-1",
+      "description": "Plates of delicious North Indian cuisine.",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBmb29kfGVufDB8fHx8MTc2Nzc3NTc2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian food"
+    },
+    {
+      "id": "caterer-2",
+      "description": "Elegant table setting at a wedding.",
+      "imageUrl": "https://images.unsplash.com/photo-1576842546422-60562b9242ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3ZWRkaW5nJTIwY2F0ZXJpbmd8ZW58MHx8fHwxNzY3Nzc3NDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding catering"
+    },
+    {
+      "id": "caterer-3",
+      "description": "Buffet line at a corporate event.",
+      "imageUrl": "https://images.unsplash.com/photo-1561489396-888724a1543d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3Jwb3JhdGUlMjBldmVudHxlbnwwfHx8fDE3Njc3MDE5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate event"
+    },
+    {
+      "id": "caterer-4",
+      "description": "South Indian dishes served on a banana leaf.",
+      "imageUrl": "https://images.unsplash.com/photo-1645617936809-dd8f99e37ce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzb3V0aCUyMGluZGlhbnxlbnwwfHx8fDE3Njc3NzkwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "south indian"
+    },
+    {
+      "id": "caterer-5",
+      "description": "Platters of assorted appetizers.",
+      "imageUrl": "https://images.unsplash.com/photo-1764315975176-a0281c4b4f08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcHBldGl6ZXJzJTIwcGxhdHRlcnxlbnwwfHx8fDE3Njc2OTM4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "appetizers platter"
+    },
+    {
+      "id": "caterer-6",
+      "description": "A chef garnishing a plate of food.",
+      "imageUrl": "https://images.unsplash.com/photo-1722152667178-be659e54bffc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVmJTIwY29va2luZ3xlbnwwfHx8fDE3Njc3NDMwODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chef cooking"
+    },
+    {
+      "id": "caterer-7",
+      "description": "Italian pasta dish",
+      "imageUrl": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aXRhbGlhbiUyMHBhc3RhfGVufDB8fHx8MTc2Nzc3OTAyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "italian pasta"
+    },
+    {
+      "id": "caterer-8",
+      "description": "Chinese dumplings",
+      "imageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwZm9vZHxlbnwwfHx8fDE3Njc3NzkwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chinese food"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Catering staff serving guests",
+      "imageUrl": "https://images.unsplash.com/photo-1696805566858-fe4a670d5df3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2F0ZXJpbmclMjBzdGFmZnxlbnwwfHx8fDE3Njc3Nzc0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "catering staff"
+    },
+    {
+      "id": "gallery-2",
+      "description": "A beautifully decorated event hall",
+      "imageUrl": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVudCUyMGhhbGx8ZW58MHx8fHwxNzY3Nzc5MDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "event hall"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Close up of a fancy dessert",
+      "imageUrl": "https://images.unsplash.com/photo-1587244399104-f12b41169443?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0JTIwZGlzcGxheXxlbnwwfHx8fDE3Njc3NzkwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dessert display"
+    }
+  ]
 }
