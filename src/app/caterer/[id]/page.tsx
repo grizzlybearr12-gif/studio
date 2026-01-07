@@ -8,6 +8,7 @@ import { Phone, Mail, IndianRupee, MapPin } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import ReviewForm from '@/components/catering/ReviewForm';
+import GenerateMenu from '@/components/catering/GenerateMenu';
 
 export function generateStaticParams() {
   return caterers.map((caterer) => ({
@@ -107,6 +108,9 @@ export default function CatererDetailPage({ params }: { params: { id: string } }
               </div>
             </CardContent>
           </Card>
+          
+          <GenerateMenu specialties={caterer.specialty} />
+
         </div>
       </div>
       
