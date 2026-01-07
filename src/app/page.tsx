@@ -24,7 +24,7 @@ export default function Home() {
   const handleSearch = () => {
     const filtered = allCaterers.filter(caterer => {
       const cityMatch = searchCity ? caterer.city.toLowerCase().includes(searchCity.toLowerCase()) : true;
-      const specialtyMatch = filterSpecialty ? caterer.specialty.includes(filterSpecialty) : true;
+      const specialtyMatch = filterSpecialty && filterSpecialty !== 'any' ? caterer.specialty.includes(filterSpecialty) : true;
       const priceMatch = caterer.pricePerPlate <= priceRange[0];
       return cityMatch && specialtyMatch && priceMatch;
     });
@@ -73,7 +73,7 @@ export default function Home() {
                     <SelectValue placeholder="Any Specialty" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">Any Specialty</SelectItem>
+                    <SelectItem value="any">Any Specialty</SelectItem>
                     {SPECIALTIES.map(s => <SelectItem key={s} value={s}>{s}</SelectItem>)}
                   </SelectContent>
                 </Select>
