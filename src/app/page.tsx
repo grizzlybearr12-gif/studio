@@ -89,7 +89,7 @@ export default function Home() {
                 />
               </div>
               <div className="md:col-span-3 lg:col-span-1">
-                <Button onClick={handleSearch} className="w-full h-12 text-lg">Search</Button>
+                <Button onClick={handleSearch} className="w-full h-12 text-lg" variant="destructive">Search</Button>
               </div>
             </div>
           </CardContent>
