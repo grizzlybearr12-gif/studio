@@ -3,7 +3,7 @@ import { caterers } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Badge } from '@/components/ui/badge';
 import StarRating from '@/components/catering/StarRating';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Phone, Mail, IndianRupee, MapPin } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
