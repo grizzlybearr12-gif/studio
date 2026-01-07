@@ -26,7 +26,7 @@ export default function Header() {
       <div className="container flex h-16 items-center">
         <Link href="/" className="flex items-center gap-2 mr-auto">
           <UtensilsCrossed className="h-7 w-7 text-primary" />
-          <span className="font-headline text-2xl font-bold">CaterEase Connect</span>
+          <span className="font-headline text-2xl font-bold">CaterEase</span>
         </Link>
 
         <nav className="hidden md:flex md:items-center md:gap-4 text-lg">
@@ -54,7 +54,7 @@ export default function Header() {
               <div className="flex flex-col gap-4 py-8">
                   <Link href="/" className="flex items-center gap-2 mb-4">
                       <UtensilsCrossed className="h-7 w-7 text-primary" />
-                      <span className="font-headline text-xl font-bold">CaterEase Connect</span>
+                      <span className="font-headline text-xl font-bold">CaterEase</span>
                   </Link>
                   <nav className="flex flex-col gap-4">
                       <NavLinks/>

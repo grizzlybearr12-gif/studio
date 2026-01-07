@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
             <UtensilsCrossed className="h-6 w-6 text-primary" />
-            <span className="font-headline text-xl font-bold">CaterEase Connect</span>
+            <span className="font-headline text-xl font-bold">CaterEase</span>
           </div>
           <nav className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm text-muted-foreground mb-4 md:mb-0">
             <Link href="#" className="hover:text-primary transition-colors">About Us</Link>
@@ -20,7 +20,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="mt-6 text-center text-xs text-muted-foreground">
-          <p>&copy; {currentYear} CaterEase Connect. All rights reserved.</p>
+          <p>&copy; {currentYear} CaterEase. All rights reserved.</p>
         </div>
       </div>
     </footer>

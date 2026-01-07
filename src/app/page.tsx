@@ -24,7 +24,7 @@ export default function Home() {
   const handleSearch = () => {
     const filtered = allCaterers.filter(caterer => {
       const cityMatch = searchCity ? caterer.city.toLowerCase().includes(searchCity.toLowerCase()) : true;
-      const specialtyMatch = filterSpecialty && filterSpecialty !== 'any' ? caterer.specialty.includes(filterSpecialty) : true;
+      const specialtyMatch = filterSpecialty && filterSpecialty !== 'all' ? caterer.specialty.includes(filterSpecialty) : true;
       const priceMatch = caterer.pricePerPlate <= priceRange[0];
       return cityMatch && specialtyMatch && priceMatch;
     });
@@ -46,7 +46,7 @@ export default function Home() {
         )}
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-          <h1 className="text-5xl md:text-7xl font-headline font-bold text-primary animate-fade-in-down">CaterEase Connect</h1>
+          <h1 className="text-5xl md:text-7xl font-headline font-bold text-primary animate-fade-in-down">CaterEase</h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl text-gray-200 animate-fade-in-up">Discover exceptional catering for any event, anywhere in India.</p>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function Home() {
                     <SelectValue placeholder="Any Specialty" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="any">Any Specialty</SelectItem>
+                    <SelectItem value="all">Any Specialty</SelectItem>
                     {SPECIALTIES.map(s => <SelectItem key={s} value={s}>{s}</SelectItem>)}
                   </SelectContent>
                 </Select>
